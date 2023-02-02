@@ -52,7 +52,7 @@ class  App extends React.Component {
     })
   }
   edit(id){
-    axios.get("http://:31111/api/"+id)
+    axios.get("http://13.208.183.239:31111/api/"+id)
     .then((res)=>{
       this.setState({
         id:res.data.id,
